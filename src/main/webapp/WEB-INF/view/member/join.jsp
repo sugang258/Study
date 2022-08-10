@@ -1,4 +1,5 @@
 <%@page import="com.gang.members.BankMembersDTO"%>
+<%@page import="com.gang.members.BankMembersDTO"%>
 <%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -14,7 +15,7 @@
 </style>
 <body>
 	<h1>join page</h1>
-	<form action="join" class="align-center">
+	<form action="join" class="align-center" method="post">
         ID
         <input type="text" name="id" placeholder="id를 입력하세요"><br><br>
         PW
@@ -25,7 +26,7 @@
         <input type="text" name="email" placeholder="Email을 입력하세요"><br><br>
         Phone
         <input type="text" name="phone" placeholder="Phone을 입력하세요"><br><br>
-        <input type="submit" value="회원가입" onclick="location.href='login'">
+        <input type="submit" name="join" value="회원가입" >
         <input type="button" value="뒤로가기" onclick="location.href='login'">
         
     </form>

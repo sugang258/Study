@@ -1,4 +1,4 @@
-<%@page import="com.gang.bankbook.BankBookDTO"%>
+<%@page import="com.gang.start.bankbook.BankBookDTO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <% BankBookDTO bankbookDTO = (BankBookDTO) request.getAttribute("dto"); %>
